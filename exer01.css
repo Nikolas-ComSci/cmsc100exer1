@@ -43,7 +43,7 @@ body{
     padding-bottom: 35%;
 }
 
-#favorites-body{
+.flexbox{
     display: flex;
 }
 
