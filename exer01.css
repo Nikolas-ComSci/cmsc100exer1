@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Zilla+Slab:wght@700&display=swap');
 
-div{
-    border-width: 1px;
-    border-style: solid;
-    border-color: lightgray;
-    margin: 1px;
-    padding: 1px;
-}
+
 
 body{
     font-family: 'Rubik', sans-serif;
@@ -14,7 +8,7 @@ body{
 
 .parent-box{
     min-width: 800px;
-    width: 75%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -51,6 +45,7 @@ body{
 
 #name{
     font-size: 5em;
+    margin-bottom: 0em;
 }
 
 #favorites-body{
@@ -72,8 +67,8 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     object-fit: cover;
     border-radius: 50%;
   }
