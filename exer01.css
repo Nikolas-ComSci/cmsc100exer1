@@ -53,11 +53,11 @@ body{
     font-size: 5em;
 }
 
-#favorites-body{
+.flexbox{
     display: flex;
 }
 
-#favorites-left-column, #favorites-right-column{
+.left-column, .right-column{
     min-width: 200px;
     width: 50%;
     background-color: aqua ;
