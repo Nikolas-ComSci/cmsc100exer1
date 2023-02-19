@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Zilla+Slab:wght@700&display=swap');
 
 
+{
+    border-width: 1px;
+    border-color: lightblue;
+    margin: 1px;
+    padding: 1px;
+    border-style: solid;
+}
 
 body{
     font-family: 'Rubik', sans-serif;
+    --accent: #5265f2;
 }
 
 .parent-box{
@@ -15,7 +23,9 @@ body{
 
 .parent-box.upper-half{
     display: flex;
-    margin-top: 5em;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .child-1-box{
@@ -43,23 +53,41 @@ body{
     margin-bottom: auto;
 }
 
+.section-header{
+    font-family: 'Zilla Slab', serif;
+}
+
 #name{
+    font-family: 'Zilla Slab', serif;
     font-size: 5em;
     margin-bottom: 0em;
 }
 
 #favorites-body{
     display: flex;
+    gap: 1em;
 }
 
 #favorites-left-column, #favorites-right-column{
+    gap: 1em;
     min-width: 200px;
     width: 50%;
-    background-color: aqua ;
 }
 
-#name{
-    font-family: 'Zilla Slab', serif;
+#favorites-header{
+    
+}
+
+.favorites-card{
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: var(--accent);
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 1em;
+    
 }
 
   
