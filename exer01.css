@@ -11,7 +11,9 @@
 
 body{
     font-family: 'Rubik', sans-serif;
+    color: rgb(83, 83, 83);
     --accent: #5265f2;
+    gap: 2em;
 }
 
 .parent-box{
@@ -26,6 +28,10 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+.lower-half{
+    margin-bottom: 25vh;
 }
 
 .child-1-box{
@@ -55,6 +61,13 @@ body{
 
 .section-header{
     font-family: 'Zilla Slab', serif;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.accent-text{
+    color: var(--accent);
 }
 
 #name{
@@ -62,6 +75,8 @@ body{
     font-size: 5em;
     margin-bottom: 0em;
 }
+
+
 
 #favorites-body{
     display: flex;
@@ -75,7 +90,7 @@ body{
 }
 
 #favorites-header{
-    
+    text-align: center;
 }
 
 .favorites-card{
@@ -99,3 +114,21 @@ body{
     object-fit: cover;
     border-radius: 50%;
   }
+
+
+
+
+
+
+.circle{
+    background-color: var(--accent);
+}
+
+#shape-cir-01{
+    position: absolute;
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    top: 80%;
+    left: -10%
+}
