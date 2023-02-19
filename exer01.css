@@ -1,13 +1,19 @@
+
+/*
+    KARL NIKOLAS ALCALA
+    2021-10557
+
+    Exercise 01
+    February 19, 2023
+    CMSC-100 UV4L
+*/
+
+/*  Import fonts from Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Zilla+Slab:wght@700&display=swap');
 
 
-{
-    border-width: 1px;
-    border-color: lightblue;
-    margin: 1px;
-    padding: 1px;
-    border-style: solid;
-}
+
+/*  CONSISTENCY STYLINGS -----------------------------------------------------*/
 
 body{
     font-family: 'Rubik', sans-serif;
@@ -22,6 +28,9 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/*  CONTAINER DIV STYLINGS -----------------------------------------------------*/
 
 .parent-box.upper-half{
     display: flex;
@@ -59,6 +68,9 @@ body{
     margin-bottom: auto;
 }
 
+
+/*  TEXT STYLINGS -----------------------------------------------------*/
+
 .section-header{
     font-family: 'Zilla Slab', serif;
     font-size: 2em;
@@ -77,6 +89,8 @@ body{
 }
 
 
+
+/*  FAVORITE SECTION LAYOUT STYLINGS -----------------------------------------------------*/
 
 #favorites-body{
     display: flex;
@@ -105,6 +119,8 @@ body{
 }
 
   
+/*  PHOTO DESIGN STYLINGS (FIRST THING SEEN ON THE RIGHT) -----------------------------------------------------*/
+
 #profile_image {
     position: absolute;
     top: 0;
@@ -114,8 +130,6 @@ body{
     object-fit: cover;
     border-radius: 50%;
   }
-
-
 
 .circle{
     background-color: var(--accent);
